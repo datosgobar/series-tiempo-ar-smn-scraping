@@ -16,4 +16,7 @@ install_anaconda:
 
 setup_anaconda:
 	conda create -n $(CONDA_ENV) python=3.6 --no-default-packages
-	source $(ACTIVATE) $(CONDA_ENV); $(SERIES_TIEMPO_PIP) install -e .
+	source $(ACTIVATE) $(CONDA_ENV); $(SERIES_TIEMPO_PIP) install -r requirements.txt
+
+all:
+	source $(ACTIVATE) $(CONDA_ENV); python smn.py
