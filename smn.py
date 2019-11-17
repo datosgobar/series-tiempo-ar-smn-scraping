@@ -24,7 +24,8 @@ def get_estaciones(url_estaciones, path_est_backup):
         dtype={"FECHA": str}
     )
     try:
-        estaciones_backup = pd.read_csv(path_est_backup, encoding="utf8")
+        estaciones_backup = pd.read_csv(path_est_backup, encoding="utf8",
+                                        dtype={"FECHA": str})
         estaciones_total = pd.concat(
             [estaciones, estaciones_backup]).drop_duplicates()
         estaciones_total.to_csv(path_est_backup, encoding="utf8", index=False)
@@ -43,7 +44,8 @@ def get_temperaturas(url_temperaturas, path_temp_backup):
         url_temperaturas, compression="zip", encoding="latin1", skiprows=[2],
         header=1, dtype={"FECHA": str})
     try:
-        temperaturas_backup = pd.read_csv(path_temp_backup, encoding="utf8")
+        temperaturas_backup = pd.read_csv(path_temp_backup, encoding="utf8",
+                                          dtype={"FECHA": str})
         temperaturas_total = pd.concat(
             [temperaturas, temperaturas_backup]).drop_duplicates()
         temperaturas_total.to_csv(
