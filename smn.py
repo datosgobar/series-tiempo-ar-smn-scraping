@@ -62,7 +62,7 @@ def get_temperaturas_estaciones(temperaturas, estaciones):
         estaciones[["NOMBRE", "NroOACI"]], on="NOMBRE")[
         ["FECHA", "TMAX", "TMIN", "NroOACI"]]
     temperaturas_estaciones["FECHA"] = temperaturas_estaciones["FECHA"].apply(
-        lambda x: arrow.get(x, "DDMMYYYY").format("YYYY-MM-DD"))
+        lambda x: arrow.get(str(x), "DDMMYYYY").format("YYYY-MM-DD"))
     return temperaturas_estaciones
 
 
