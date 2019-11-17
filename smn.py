@@ -81,6 +81,7 @@ def get_unidades_territoriales(latitud, longitud):
 
     except Exception as e:
         print(e)
+        print(r.json())
         print("No se pudo localizar lat:{} y lon:{}".format(latitud, longitud))
         return None
 
