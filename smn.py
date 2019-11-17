@@ -14,6 +14,7 @@ import pandas as pd
 import arrow
 import requests
 import json
+import time
 
 
 def get_estaciones(url_estaciones, path_est_backup):
@@ -77,6 +78,7 @@ def get_unidades_territoriales(latitud, longitud):
         r = requests.get(
             "https://apis.datos.gob.ar/georef/api/ubicacion?lat={lat}&lon={lon}".format(
                 lat=latitud, lon=longitud))
+        time.sleep(0.1)
         return r.json()["ubicacion"]
 
     except Exception as e:
