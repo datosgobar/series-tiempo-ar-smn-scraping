@@ -1,0 +1,10 @@
+{
+    "URL_ESTACIONES": "https://ssl.smn.gob.ar/dpd/zipopendata.php?dato=estaciones",
+    "URL_TEMPERATURAS": "https://ssl.smn.gob.ar/dpd/zipopendata.php?dato=regtemp",
+    "PATH_EST_BACKUP": "datos/input/estaciones-backup.csv",
+    "PATH_TEMP_BACKUP": "datos/input/temperaturas-backup.csv",
+    "PATH_TEMP_MAX": "datos/output/temperaturas-maximas.csv",
+    "PATH_TEMP_MIN": "datos/output/temperaturas-minimas.csv",
+    "PATH_TEMP_PANEL": "datos/output/temperaturas-panel.csv",
+    "PATH_ESTACIONES": "datos/output/estacioes-meteorologicas.csv"
+}

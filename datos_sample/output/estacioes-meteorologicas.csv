@@ -1,0 +1,129 @@
+estacion_nombre,estacion_latitud,estacion_longitud,estacion_altura,estacion_id,estacion_oaci_id,provincia_id,provincia_nombre,departamento_id,departamento_nombre
+BASE BELGRANO II,-77      52,-34      34,256,89034,SAYB,94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",94028,Antártida Argentina
+BASE CARLINI (EX JUBANY),-62      14,-58      38,11,89053,SAYJ,,,,
+BASE ESPERANZA,-63      24,-56      59,24,88963,SAYE,,,,
+BASE MARAMBIO,-64      14,-56      43,198,89055,SAWB,,,,
+BASE ORCADAS,-60      45,-44      43,12,88968,SAYO,,,,
+BASE SAN MARTIN,-68       8,-67       8,7,89066,SAYS,,,,
+AZUL AERO,-36      50,-59      53,147,87641,SAZA,06,Buenos Aires,06049,Azul
+BAHIA BLANCA AERO,-38      44,-62      10,83,87750,SAZB,06,Buenos Aires,06056,Bahía Blanca
+BENITO JUAREZ AERO,-37      43,-59      47,207,87649,SAZJ,06,Buenos Aires,06791,Tandil
+BOLIVAR AERO,-36      12,-61       4,94,87640,SAZI,06,Buenos Aires,06406,Hipólito Yrigoyen
+CAMPO DE MAYO AERO,-34      32,-58      40,26,87570,SADO,,,,
+CORONEL PRINGLES AERO,-38       1,-61      20,247,87683,SABP,06,Buenos Aires,06196,Coronel Pringles
+CORONEL SUAREZ AERO,-37      26,-61      53,233,87637,SAZC,06,Buenos Aires,06322,General La Madrid
+DOLORES AERO,-36      21,-57      44,9,87648,SAZD,06,Buenos Aires,06238,Dolores
+EL PALOMAR AERO,-34      36,-58      36,12,87571,SADP,,,,
+EZEIZA AERO,-34      49,-58      32,20,87576,SAEZ,,,,
+JUNIN AERO,-34      33,-60      55,81,87548,SAAJ,06,Buenos Aires,06686,Rojas
+LA PLATA AERO,-34      58,-57      54,23,87593,SADL,,,,
+LAS FLORES,-36       2,-59       8,36,87563,SAEL,06,Buenos Aires,06798,Tapalqué
+MAR DEL PLATA AERO,-37      56,-57      35,21,87692,SAZM,06,Buenos Aires,06518,Mar Chiquita
+MARIANO MORENO AERO,-34      33,-58      49,32,87572,SADJ,06,Buenos Aires,06805,Tigre
+MERLO AERO,-34      41,-58      44,36,87573,SADR,,,,
+MORON AERO,-34      40,-58      38,24,87574,SADM,,,,
+NUEVE DE JULIO,-35      27,-60      53,76,87550,SAZX,06,Buenos Aires,06112,Bragado
+OLAVARRIA AERO,-36      53,-60      13,166,87643,SAZF,06,Buenos Aires,06798,Tapalqué
+PEHUAJO AERO,-35      52,-61      54,87,87544,SAZP,06,Buenos Aires,06147,Carlos Casares
+PIGUE AERO,-37      36,-62      23,304,87679,SAZE,06,Buenos Aires,06203,Coronel Suárez
+PUNTA INDIO B.A.,-35      22,-57      17,22,87596,SAAI,,,,
+SAN FERNANDO AERO,-34      27,-58      35,3,87553,SADF,,,,
+SANTA TERESITA AERO,-36      33,-56      41,4,87658,SAZL,,,,
+TANDIL AERO,-37      14,-59      15,175,87645,SAZT,06,Buenos Aires,06791,Tandil
+TRENQUE LAUQUEN,-35      58,-62      44,95,87540,SAET,06,Buenos Aires,06154,Carlos Tejedor
+TRES ARROYOS,-38      20,-60      15,115,87688,SAZH,06,Buenos Aires,06833,Tres Arroyos
+VILLA GESELL AERO,-37      14,-57       1,9,87663,SAZV,06,Buenos Aires,06315,General Juan Madariaga
+AEROPARQUE AERO,-34      34,-58      25,6,87582,SABE,,,,
+BUENOS AIRES OBSERVATORIO,-34      35,-58      29,25,87585,SABA,,,,
+CATAMARCA AERO,-28      36,-65      46,464,87222,SANC,10,Catamarca,10056,El Alto
+TINOGASTA,-28       4,-67      34,1201,87211,SANI,46,La Rioja,46119,San Blas de Los Sauces
+PRESIDENCIA ROQUE SAENZ PEÑA A,-26      45,-60      24,93,87148,SARS,22,Chaco,22091,Maipú
+ERO,,,,,,,,,
+,,,,,,,,,
+RESISTENCIA AERO,-27      27,-59       3,52,87155,SARE,22,Chaco,22077,Libertad
+COMODORO RIVADAVIA AERO,-45      47,-67      30,46,87860,SAVC,26,Chubut,26021,Escalante
+ESQUEL AERO,-42      56,-71       9,797,87803,SAVE,26,Chubut,26035,Futaleufú
+PASO DE INDIOS,-43      49,-68      53,460,87814,SAVP,26,Chubut,26070,Paso de Indios
+PUERTO MADRYN AERO,-42      44,-65       4,136,87823,SAVY,26,Chubut,26007,Biedma
+TRELEW AERO,-43      12,-65      16,43,87828,SAVT,26,Chubut,26077,Rawson
+CORDOBA AERO,-31      18,-64      12,495,87344,SACO,14,Córdoba,14021,Colón
+CORDOBA OBSERVATORIO,-31      24,-64      11,425,87345,SACK,14,Córdoba,14021,Colón
+ESCUELA DE AVIACION MILITAR AE,-31      27,-64      16,502,87347,SACE,14,Córdoba,14021,Colón
+RO,,,,,,,,,
+,,,,,,,,,
+LABOULAYE AERO,-34       8,-63      22,137,87534,SAOL,06,Buenos Aires,06392,General Villegas
+MARCOS JUAREZ AERO,-32      42,-62       9,114,87467,SAOM,14,Córdoba,14182,Unión
+PILAR OBSERVATORIO,-31      40,-63      53,338,87349,SACI,14,Córdoba,14105,Río Primero
+RIO CUARTO AERO,-33       7,-64      14,421,87453,SAOC,14,Córdoba,14098,Río Cuarto
+VILLA DE MARIA DEL RIO SECO,-29      54,-63      41,341,87244,SACV,86,Santiago del Estero,86126,Ojo de Agua
+VILLA DOLORES AERO,-31      57,-65       8,566,87328,SAOD,46,La Rioja,46091,General San Martín
+CORRIENTES AERO,-27      27,-58      46,62,87166,SARC,,,,
+ITUZAINGO,-27      35,-56      40,72,87173,SARO,,,,
+MERCEDES AERO (CTES),-29      13,-58       6,107,87281,SATM,18,Corrientes,18035,Curuzu Cuatia
+MONTE CASEROS AERO,-30      16,-57      39,54,87393,SARM,,,,
+PASO DE LOS LIBRES AERO,-29      41,-57       9,70,87289,SARL,18,Corrientes,18105,Mercedes
+CONCORDIA AERO,-31      18,-58       1,38,87395,SAAC,30,Entre Ríos,30015,Concordia
+GUALEGUAYCHU AERO,-33       0,-58      37,23,87497,SAAG,30,Entre Ríos,30056,Gualeguaychú
+PARANA AERO,-31      47,-60      29,78,87374,SAAP,82,Santa Fe,82035,Garay
+FORMOSA AERO,-26      12,-58      14,60,87162,SARF,34,Formosa,34014,Formosa
+LAS LOMITAS,-24      42,-60      35,130,87078,SATK,34,Formosa,34035,Patiño
+JUJUY AERO,-24      23,-65       5,905,87046,SASJ,38,Jujuy,38021,Dr. Manuel Belgrano
+JUJUY U N,-24      10,-65      11,1302,87043,,38,Jujuy,38042,Palpalá
+LA QUIACA OBSERVATORIO,-22       6,-65      36,3459,87007,SASQ,38,Jujuy,38007,Cochinoca
+GENERAL PICO AERO,-35      42,-63      45,145,87532,SAZG,42,La Pampa,42056,Chapaleufú
+SANTA ROSA AERO,-36      34,-64      16,191,87623,SAZR,42,La Pampa,42021,Capital
+VICTORICA,-36      13,-65      26,312,87616,SAHV,42,La Pampa,42098,Loventué
+CHAMICAL AERO,-30      22,-66      17,461,87320,SACT,46,La Rioja,46035,Chamical
+CHEPES,-31      20,-66      36,658,87322,SACP,46,La Rioja,46112,Rosario Vera Peñaloza
+CHILECITO AERO,-29      14,-67      26,947,87213,SANO,46,La Rioja,46042,Chilecito
+LA RIOJA AERO,-29      23,-66      49,429,87217,SANL,46,La Rioja,46014,Capital
+MALARGUE AERO,-35      30,-69      35,1425,87506,SAMM,50,Mendoza,50077,Malargüe
+MENDOZA AERO,-32      50,-68      47,704,87418,SAME,50,Mendoza,50056,Lavalle
+MENDOZA OBSERVATORIO,-32      53,-68      51,827,87420,SAMK,50,Mendoza,50056,Lavalle
+SAN CARLOS (MZA),-33      46,-69       2,940,87412,SAMS,50,Mendoza,50126,Tupungato
+SAN MARTIN (MZA),-33       5,-68      25,653,87416,SAMI,50,Mendoza,50112,Santa Rosa
+SAN RAFAEL AERO,-34      35,-68      24,748,87509,SAMR,50,Mendoza,50105,San Rafael
+USPALLATA,-32      36,-69      20,1891,87405,SAMU,50,Mendoza,50049,Las Heras
+BERNARDO DE IRIGOYEN AERO,-26      15,-53      39,815,87163,SATI,,,,
+IGUAZU AERO,-25      44,-54      28,270,87097,SARI,,,,
+OBERA,-27      29,-55       8,303,87187,SATO,,,,
+POSADAS AERO,-27      22,-55      58,125,87178,SARP,54,Misiones,54098,San Ignacio
+CHAPELCO AERO,-40       5,-71       8,779,87761,SAZY,58,Neuquén,58070,Los Lagos
+NEUQUEN AERO,-38      57,-68       8,271,87715,SAZN,58,Neuquén,58035,Confluencia
+BARILOCHE AERO,-41       9,-71      10,835,87765,SAZS,62,Río Negro,62056,Ñorquinco
+CIPOLLETTI,-38      57,-67      58,265,87719,SAHI,62,Río Negro,62042,General Roca
+EL BOLSON AERO,-41      58,-71      31,337,87800,SAVB,62,Río Negro,62021,Bariloche
+MAQUINCHAO,-41      15,-68      44,888,87774,SAVQ,62,Río Negro,62091,25 de Mayo
+RIO COLORADO,-39       1,-64       5,79,87736,SAZQ,62,Río Negro,62063,Pichi Mahuida
+SAN ANTONIO OESTE AERO,-40      47,-65       6,20,87784,SAVN,62,Río Negro,62077,San Antonio
+VIEDMA AERO,-40      51,-63       1,7,87791,SAVV,06,Buenos Aires,06602,Patagones
+METAN,-25      29,-64      48,855,87050,SASM,66,Salta,66112,Metán
+ORAN AERO,-23       9,-64      19,357,87016,SASO,38,Jujuy,38070,Santa Bárbara
+RIVADAVIA,-24      10,-62      54,205,87065,SASR,66,Salta,66133,Rivadavia
+SALTA AERO,-24      51,-65      29,1221,87047,SASA,66,Salta,66077,La Caldera
+TARTAGAL AERO,-22      39,-63      49,450,87022,SAST,66,Salta,66056,General José de San Martín
+JACHAL,-30      14,-68      45,1175,87305,SAMJ,70,San Juan,70056,Jáchal
+SAN JUAN AERO,-31      34,-68      25,598,87311,SANU,70,San Juan,70014,Angaco
+SAN LUIS AERO,-33      16,-66      21,713,87436,SAOU,74,San Luis,74021,Coronel Pringles
+SANTA ROSA DE CONLARA AERO,-32      23,-65      11,620,87444,SAOS,14,Córdoba,14133,San Javier
+VILLA REYNOLDS AERO,-33      44,-65      23,486,87448,SAOR,74,San Luis,74035,General Pedernera
+EL CALAFATE AERO,-50      16,-72       3,204,87904,SAWC,78,Santa Cruz,78028,Lago Argentino
+GOBERNADOR GREGORES AERO,-48      47,-70      10,358,87880,SAWR,78,Santa Cruz,78049,Río Chico
+PERITO MORENO AERO,-46      31,-71       1,429,87852,SAWP,78,Santa Cruz,78035,Lago Buenos Aires
+PUERTO DESEADO AERO,-47      44,-65      55,80,87896,SAWD,,,,
+RIO GALLEGOS AERO,-51      37,-69      17,19,87925,SAWG,78,Santa Cruz,78021,Güer Aike
+SAN JULIAN AERO,-49      19,-67      47,62,87909,SAWJ,,,,
+SANTA CRUZ AERO,-50       1,-68      34,111,87912,SAWU,78,Santa Cruz,78007,Corpen Aike
+CERES AERO,-29      53,-61      57,88,87257,SANW,82,Santa Fe,82077,9 de Julio
+EL TREBOL,-32      12,-61      40,96,87470,SAFT,82,Santa Fe,82126,San Martín
+RAFAELA AERO,-31      16,-61      30,99,87360,SAFR,82,Santa Fe,82070,Las Colonias
+RECONQUISTA AERO,-29      11,-59      42,53,87270,SATR,82,Santa Fe,82049,General Obligado
+ROSARIO AERO,-32      55,-60      47,25,87480,SAAR,30,Entre Ríos,30105,Victoria
+SAUCE VIEJO AERO,-31      42,-60      49,18,87371,SAAV,82,Santa Fe,82035,Garay
+SUNCHALES AERO,-30      58,-61      20,92,87356,SAFS,82,Santa Fe,82091,San Cristóbal
+VENADO TUERTO AERO,-33      40,-61      58,112,87468,SAFV,82,Santa Fe,82042,General López
+SANTIAGO DEL ESTERO AERO,-27      46,-64      18,199,87129,SANE,86,Santiago del Estero,86035,Banda
+TERMAS DE RIO HONDO AERO,-27      29,-64      56,280,87127,SANR,86,Santiago del Estero,86091,Jiménez
+RIO GRANDE B.A.,-53      48,-67      45,22,87934,SAWE,,,,
+USHUAIA AERO,-54      48,-68      19,57,87938,SAWH,94,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",94011,Tolhuin
+TUCUMAN AERO,-26      51,-65       6,450,87121,SANT,90,Tucumán,90112,Trancas
