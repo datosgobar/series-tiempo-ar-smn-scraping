@@ -24,11 +24,18 @@ def get_estaciones(url_estaciones, path_est_backup):
         url_estaciones, compression="zip", encoding="latin1", skiprows=[1],
         dtype={"FECHA": str}
     )
+
+    # TODO: Buscar solución definitiva a problema de salto de linea en formato Fixed Width File
+    for index, row in estaciones.iterrows():
+        if pd.isna(row[0]):
+            print("Se concatena {} con {}".format(estaciones.iat[index - 2, 0], estaciones.iat[index - 1, 0]))
+            estaciones.iat[index - 2, 0] = estaciones.iat[index - 2, 0] + estaciones.iat[index - 1, 0]
+
     try:
         estaciones_backup = pd.read_csv(path_est_backup, encoding="utf8",
                                         dtype={"FECHA": str})
         estaciones_total = pd.concat(
-            [estaciones, estaciones_backup]).drop_duplicates()
+            [estaciones, estaciones_backup]).drop_duplicates().dropna()
         estaciones_total.to_csv(path_est_backup, encoding="utf8", index=False)
     except Exception as e:
         print(e)
