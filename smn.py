@@ -72,8 +72,10 @@ def get_temperaturas_estaciones(temperaturas, estaciones):
 def get_unidades_territoriales(latitud, longitud):
     """Busca unidades territoriales a partir de las coordenadas."""
     try:
-        latitud = ".".join(re.split("\s+", latitud, maxsplit=2))
-        longitud = ".".join(re.split("\s+", longitud, maxsplit=2))
+        latitud = re.split("\s+", latitud, maxsplit=2)
+        latitud = ".".join([latitud[0], str(int(float(latitud[1]) / 60 * 10000))])
+        longitud = re.split("\s+", longitud, maxsplit=2)
+        longitud = ".".join([longitud[0], str(int(float(longitud[1]) / 60 * 10000))])
 
         r = requests.get(
             "https://apis.datos.gob.ar/georef/api/ubicacion?lat={lat}&lon={lon}".format(
