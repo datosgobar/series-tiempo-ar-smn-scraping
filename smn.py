@@ -24,11 +24,18 @@ def get_estaciones(url_estaciones, path_est_backup):
         url_estaciones, compression="zip", encoding="latin1", skiprows=[1],
         dtype={"FECHA": str}
     )
+
+    # TODO: Buscar solución definitiva a problema de salto de linea en formato Fixed Width File
+    for index, row in estaciones.iterrows():
+        if pd.isna(row[0]):
+            print("Se concatena {} con {}".format(estaciones.iat[index - 2, 0], estaciones.iat[index - 1, 0]))
+            estaciones.iat[index - 2, 0] = estaciones.iat[index - 2, 0] + estaciones.iat[index - 1, 0]
+
     try:
         estaciones_backup = pd.read_csv(path_est_backup, encoding="utf8",
                                         dtype={"FECHA": str})
         estaciones_total = pd.concat(
-            [estaciones, estaciones_backup]).drop_duplicates()
+            [estaciones, estaciones_backup]).drop_duplicates().dropna(subset=['NOMBRE', 'PROVINCIA'])
         estaciones_total.to_csv(path_est_backup, encoding="utf8", index=False)
     except Exception as e:
         print(e)
@@ -66,14 +73,18 @@ def get_temperaturas_estaciones(temperaturas, estaciones):
         ["FECHA", "TMAX", "TMIN", "NroOACI"]]
     temperaturas_estaciones["FECHA"] = temperaturas_estaciones["FECHA"].apply(
         lambda x: arrow.get(str(x), "DDMMYYYY").format("YYYY-MM-DD"))
+    temperaturas_estaciones["TMAX"] = pd.to_numeric(temperaturas_estaciones["TMAX"], downcast="float", errors="coerce")
+    temperaturas_estaciones["TMAX"] = pd.to_numeric(temperaturas_estaciones["TMAX"], downcast="float", errors="coerce")
     return temperaturas_estaciones
 
 
 def get_unidades_territoriales(latitud, longitud):
     """Busca unidades territoriales a partir de las coordenadas."""
     try:
-        latitud = ".".join(re.split("\s+", latitud, maxsplit=2))
-        longitud = ".".join(re.split("\s+", longitud, maxsplit=2))
+        latitud = re.split("\s+", latitud, maxsplit=2)
+        latitud = ".".join([latitud[0], str(int(float(latitud[1]) / 60 * 10000))])
+        longitud = re.split("\s+", longitud, maxsplit=2)
+        longitud = ".".join([longitud[0], str(int(float(longitud[1]) / 60 * 10000))])
 
         r = requests.get(
             "https://apis.datos.gob.ar/georef/api/ubicacion?lat={lat}&lon={lon}".format(

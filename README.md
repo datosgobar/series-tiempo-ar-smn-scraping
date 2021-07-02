@@ -10,4 +10,4 @@ Scrapers de datos del Servicio Meteorológico Nacional para su conversión a ser
 
 ## Uso
 
-`python smn.py` realiza todo el procesamiento descripto en el notebook, y produce los resultados según los parámetros del `config.json`.
+`python smn.py` Realiza todo el procesamiento descripto en el notebook, y produce los resultados según los parámetros del `config.json`.
