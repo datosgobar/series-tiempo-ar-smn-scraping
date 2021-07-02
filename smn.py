@@ -35,7 +35,7 @@ def get_estaciones(url_estaciones, path_est_backup):
         estaciones_backup = pd.read_csv(path_est_backup, encoding="utf8",
                                         dtype={"FECHA": str})
         estaciones_total = pd.concat(
-            [estaciones, estaciones_backup]).drop_duplicates().dropna()
+            [estaciones, estaciones_backup]).drop_duplicates().dropna(subset=['NOMBRE', 'PROVINCIA'])
         estaciones_total.to_csv(path_est_backup, encoding="utf8", index=False)
     except Exception as e:
         print(e)
@@ -73,6 +73,8 @@ def get_temperaturas_estaciones(temperaturas, estaciones):
         ["FECHA", "TMAX", "TMIN", "NroOACI"]]
     temperaturas_estaciones["FECHA"] = temperaturas_estaciones["FECHA"].apply(
         lambda x: arrow.get(str(x), "DDMMYYYY").format("YYYY-MM-DD"))
+    temperaturas_estaciones["TMAX"] = pd.to_numeric(temperaturas_estaciones["TMAX"], downcast="float", errors="coerce")
+    temperaturas_estaciones["TMAX"] = pd.to_numeric(temperaturas_estaciones["TMAX"], downcast="float", errors="coerce")
     return temperaturas_estaciones
 
 
